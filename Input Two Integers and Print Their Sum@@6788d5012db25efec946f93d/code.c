@@ -7,4 +7,5 @@ int main{
     int sum =a+b;
     
     printf("Sum: %d",sum);
+    return 0;
 }
