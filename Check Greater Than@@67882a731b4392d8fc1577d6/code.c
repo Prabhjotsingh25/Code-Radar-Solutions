@@ -5,4 +5,5 @@ int main() {
     scanf("%d %d",&a,&b);
     max = (a>b) ? True : False;
     printf("%d",max);
+    return 0;
 }
