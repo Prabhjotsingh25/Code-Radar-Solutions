@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int a,b;
+    int a,b,max;
     scanf("%d %d",&a,&b);
-    int max = (a>b) ? True : False;
+    max = (a>b) ? True : False;
     printf("%d",max);
 }
