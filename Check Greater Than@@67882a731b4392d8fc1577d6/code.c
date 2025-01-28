@@ -5,6 +5,6 @@ int main() {
     char c="True",d="False";
     scanf("%d %d",&a,&b);
     max = (a > b) ? c : d;
-    printf("%d",max);
+    printf("%s",max);
     return 0;
 }
