@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() 
+void main() 
 {
     int a=0,b=0;
     scanf("%d %d",&a,&b);
@@ -12,5 +12,5 @@ int main()
     {
         Printf("False");
     }
-return 0;
+
 }
