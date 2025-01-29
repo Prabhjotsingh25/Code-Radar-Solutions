@@ -3,7 +3,6 @@
 int main() {
     int a,b,or;
     scanf("%d %d",&a,&b);
-    or=a|b;
-    printf("%d",&or);
+    printf("%d",or=a|b);
     return 0;
 }
