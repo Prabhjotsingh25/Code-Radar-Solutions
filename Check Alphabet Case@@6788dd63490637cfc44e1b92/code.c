@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char a:
+    char a;
     scanf("%c",&a);
     if(a>=65&&a<=91){
         printf("Uppercase");
