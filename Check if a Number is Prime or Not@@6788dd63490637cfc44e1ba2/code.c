@@ -6,9 +6,10 @@ int main() {
     if(a<=1){
         b=0;
     } else{
-        for(i=2;i<a/2;i++){
+        for(i=2;i<=a/2;i++){
             if(a%i==0){
                 b=0;
+                break;
             }
         }
     }
