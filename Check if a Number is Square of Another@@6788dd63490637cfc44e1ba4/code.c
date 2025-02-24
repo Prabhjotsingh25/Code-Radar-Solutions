@@ -1,10 +1,8 @@
 #include<stdio.h>
-#include<math.h>
 int main(){
-    double a,b,c;
-    scanf("%lf %lf",&a,&b);
-    c=pow(b,2);
-    if(c==a){
+    int a,b;
+    scanf("%d %d",&a,&b);
+    if((b*b)==a){
         printf("Yes");
     } else {
         printf("No");
