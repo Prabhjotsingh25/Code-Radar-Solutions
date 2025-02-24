@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 int main(){
-    int a,b,c;
+    double a,b,c;
     scanf("%d %d",&a,&b);
     c=pow(b,2);
     if(c==a){
