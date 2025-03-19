@@ -1,10 +1,7 @@
 #include<stdio.h>
 int main(){
-    int n,i;
+    int n;
     scanf("%d",&n);
-    if(i==n){
-        print(" ")
-    }
     for(int i=1;i<=n;i++){
         for(int j=1;j<=n;j++){
             printf("*");
