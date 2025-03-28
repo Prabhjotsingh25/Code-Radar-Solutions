@@ -8,5 +8,7 @@ int main(){
         for(j=1;<j<=i;j++){
             printf("%c ",val);
         }
-    }printf("\n");
+        printf("\n");
+    }
+    return 0;
 }  
